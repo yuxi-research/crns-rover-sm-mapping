@@ -1,8 +1,10 @@
 # crns-rover-sm-mapping
+**Yuxi Zhang** · Nov 27, 2026 · [@yuxi-research](https://github.com/yuxi-research)
+*The University of Sydney*
 
 
 
-## Installation Guide for Beginners
+## Installation guide (for beginners)
 
 ### Install the required software
 
@@ -45,9 +47,17 @@ Activate the environment, by running
 .venv/Scripts/activate  # For Windows
 ```
 
+## Run a test
 
-
-
+Run the following command to verify that the environment and dependencies are correctly installed:
+```bash
+python tests/test_env.py
+```
+If everything is set up correctly, you should see:
+```text
+...
+All tests passed successfully.
+```
 ## Run the main pipeline
 
 Copy the `example_data` folder to the root directory of this project. After copying, your project structure should look like this:

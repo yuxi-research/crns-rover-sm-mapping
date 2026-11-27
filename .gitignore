@@ -223,5 +223,5 @@ __marimo__/
 # Output files
 results*/
 notebooks_out/
-example_data/
+example_data*/
 ._*
